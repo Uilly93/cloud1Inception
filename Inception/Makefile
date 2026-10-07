@@ -2,7 +2,7 @@ NAME := Inception
 COMPOSE_FILE := srcs/docker-compose.yml
 SRC_DIR := srcs
 SECRETS_DIR := secrets
-DC := docker-compose -f $(COMPOSE_FILE)
+DC := docker compose -f $(COMPOSE_FILE)
 MARIADB_DATA_DIR := ~/data/mariadb
 WORDPRESS_DATA_DIR := ~/data/wordpress
 
