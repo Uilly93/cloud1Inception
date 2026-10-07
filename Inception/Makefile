@@ -68,7 +68,7 @@ clean: down dv prune
 rillettes: clean
 	@echo "Copie du dossier data de sauvegarde..."
 	rm -rf ~/data
-	cp -r ../data ~/
+	cp -r ../data ~
 	$(MAKE) all
 
 clean_data: clean
