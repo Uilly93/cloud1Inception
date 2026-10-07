@@ -64,12 +64,12 @@ if ! wp core is-installed --path=/var/www/html --allow-root 2>/dev/null; then
     wp cache flush --allow-root
 fi
 
-if wp theme is-installed twentytwentyfour --path=/var/www/html --allow-root; then
-    wp theme activate twentytwentyfour \
+if wp theme is-installed online-video-games --path=/var/www/html --allow-root; then
+    wp theme activate online-video-games \
         --path=/var/www/html \
         --allow-root
 else
-    wp theme install twentytwentyfour \
+    wp theme install online-video-games \
         --activate \
         --path=/var/www/html \
         --allow-root
